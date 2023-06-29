@@ -1,4 +1,6 @@
 import React from "react";
+import { BiBed } from "react-icons/bi";
+import { AiTwotoneStar } from "react-icons/ai";
 
 const PROPERTY_ARRAY = [
   {
@@ -40,16 +42,9 @@ const Newlist = () => {
                 </div>
 
                 <div className="absolute flex justify-center bottom-0 mb-3">
-                  <div className="flex bg-white px-4 py-1 space-x-5 rounded-lg overflow-hidden shadow">
-                    <p className="flex items-center font-medium text-gray-800">
-                      <svg
-                        className="w-5 h-5 fill-current mr-2"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path d="M480,226.15V80a48,48,0,0,0-48-48H80A48,48,0,0,0,32,80V226.15C13.74,231,0,246.89,0,266.67V472a8,8,0,0,0,8,8H24a8,8,0,0,0,8-8V416H480v56a8,8,0,0,0,8,8h16a8,8,0,0,0,8-8V266.67C512,246.89,498.26,231,480,226.15ZM64,192a32,32,0,0,1,32-32H208a32,32,0,0,1,32,32v32H64Zm384,32H272V192a32,32,0,0,1,32-32H416a32,32,0,0,1,32,32ZM80,64H432a16,16,0,0,1,16,16v56.9a63.27,63.27,0,0,0-32-8.9H304a63.9,63.9,0,0,0-48,21.71A63.9,63.9,0,0,0,208,128H96a63.27,63.27,0,0,0-32,8.9V80A16,16,0,0,1,80,64ZM32,384V266.67A10.69,10.69,0,0,1,42.67,256H469.33A10.69,10.69,0,0,1,480,266.67V384Z"></path>
-                      </svg>
-                      3 + 1
+                  <div className="flex bg-white px-4 py-1 gap-x-5 rounded-lg overflow-hidden shadow ">
+                    <p className="flex text-lg items-center font-medium text-gray-800">
+                      <BiBed className="text-xl" />3 + 1
                     </p>
 
                     <p className="flex items-center font-medium text-gray-800">
@@ -114,23 +109,16 @@ const Newlist = () => {
 
               <div className="inline-flex flex-col xl:flex-row xl:items-center text-gray-800">
                 {[...Array(5)].map((_, i) => (
-                  <svg
-                    key={i}
-                    aria-hidden="true"
-                    className={`${
-                      i >= Number(item.rating)
-                        ? "text-gray-400"
-                        : " text-yellow-400"
-                    } h-5 w-5`}
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title>First star</title>
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                  </svg>
+                  <div key={i}>
+                    <AiTwotoneStar
+                      className={`${
+                        i >= Number(item.rating)
+                          ? "text-gray-400"
+                          : " text-yellow-400"
+                      } text-lg`}
+                    />
+                  </div>
                 ))}
-                &nbsp;&nbsp;&nbsp;
                 <p className="inline-flex flex-col xl:flex-row xl:items-center text-gray-800">
                   <svg
                     className="inline-block w-5 h-5 xl:w-4 xl:h-4 mr-3 fill-current text-gray-800"
