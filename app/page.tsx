@@ -19,7 +19,9 @@ export default function Home() {
       </div>
       <About/>
       <Mission/>
+      <br/>
       <Newlist/>
+      <br/><br/>
       <Card/>
       
     </main>

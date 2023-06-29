@@ -8,8 +8,9 @@ const Navbar = () => {
   return (
     <div className="w-full h-20 lg:h-28 border-b-[1px] border-gray-500 text-black lg:text-white bg-white lg:bg-transparent">
       <div className="max-w-screen-2xl h-full mx-auto px-4 flex items-center justify-between">
-        
-        <h1 className="text-2xl uppercase font-bold">EcoHeaven Realty</h1>
+      <div>
+          <img src="logo.png" alt="Logo" className="h-18 w-18" />
+        </div>
         <ul className="hidden lg:inline-flex items-center gap-8 uppercase text-sm font-semibold">
           <li  className="navbarLi">Home</li>
           <li className="navbarLi">Company</li>

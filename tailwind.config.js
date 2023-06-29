@@ -9,7 +9,7 @@ module.exports = {
    
     extend: {
       backgroundImage: {
-        "banner-bg": "url('../public/assets/bannerBg.png')",
+        "banner-bg": "url('../public/bannerBg.png')",
       
       },
     

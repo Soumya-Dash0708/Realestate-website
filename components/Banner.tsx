@@ -27,7 +27,7 @@ const Banner = () => {
       <div className="relative mt-9  ">
           <input
             type="search"
-            className="bg-[#FFFFFF] py-4  w-[28rem] sm:w-[37rem] rounded-full pl-5 placeholder:text-black placeholder:text-[20px] outline-0 "
+            className="bg-white z-30  py-4  w-[28rem] sm:w-[37rem] rounded-full pl-5 placeholder:text-black placeholder:text-[20px] outline-0 "
             placeholder="Adress, School, City, Zip or Neighborhood"
           />
           <div className="absolute w-[2.7rem] h-[2.7rem] rounded-full  bg-[#008000] top-[0.4rem] right-1 flex items-center justify-center">
