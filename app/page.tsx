@@ -5,7 +5,6 @@ import Mission from "@/components/Mission";
 import Newlist from "@/components/Newlist";
 import Card from "@/components/Card";
 
-
 export default function Home() {
   return (
     <main>
@@ -13,19 +12,15 @@ export default function Home() {
         <div className="h-full bg-[#1B1212] opacity-70 text-white">
           <Navbar />
           <Banner />
-          
-       
         </div>
       </div>
-      <About/>
-      <Mission/>
-      <br/>
-      <Newlist/>
-      <br/><br/>
-      <Card/>
-      
+      {/* <About/> */}
+      <Mission />
+      <br />
+      <Newlist />
+      <br />
+      <br />
+      <Card />
     </main>
-
-   
   );
 }
