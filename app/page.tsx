@@ -5,6 +5,13 @@ import Mission from "@/components/Mission";
 import Newlist from "@/components/Newlist";
 import Card from "@/components/Card";
 
+import Accordion from "@/components/Accordion";
+import Contactinfo from "@/components/Contactinfo";
+import Newsletter from "@/components/Newsletter";
+import Footer from "@/components/Footer";
+import Login from "@/components/Login";
+import Review from "@/components/Review";
+
 export default function Home() {
   return (
     <main>
@@ -14,13 +21,19 @@ export default function Home() {
           <Banner />
         </div>
       </div>
-      {/* <About/> */}
+
       <Mission />
       <br />
       <Newlist />
       <br />
       <br />
       <Card />
+      <Review />
+      <Accordion />
+      <Contactinfo />
+      <Newsletter />
+      <Footer />
+      {/* <Login/> */}
     </main>
   );
 }

@@ -2,27 +2,6 @@ import React from "react";
 import { BiBed } from "react-icons/bi";
 import { AiTwotoneStar } from "react-icons/ai";
 
-const PROPERTY_ARRAY = [
-  {
-    propertyName: "Demo",
-    propertyPrice: "9000",
-    address: "demo address",
-    country: "India",
-    city: "Bbsr",
-    dop: "3 months",
-    furnishingStatus: "furnished",
-    area: "1200sqft",
-    rating: "4",
-    priceStandard: "month",
-    image:
-      "https://hips.hearstapps.com/hmg-prod/images/bristow-mews-coach-house-exterior-1676468203.jpg",
-    badge: "for sale",
-    bedrooms: "2",
-    bathroom: "2",
-    parking: "2",
-  },
-];
-
 const Newlist = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full">
@@ -179,3 +158,81 @@ const Newlist = () => {
 };
 
 export default Newlist;
+
+const PROPERTY_ARRAY = [
+  {
+    propertyName: "Demo",
+    propertyPrice: "9000",
+    address: "demo address",
+    country: "India",
+    city: "Bbsr",
+    dop: "3 months",
+    furnishingStatus: "furnished",
+    area: "1200sqft",
+    rating: "4",
+    priceStandard: "month",
+    image:
+      "https://hips.hearstapps.com/hmg-prod/images/bristow-mews-coach-house-exterior-1676468203.jpg",
+    badge: "for sale",
+    bedrooms: "2",
+    bathroom: "2",
+    parking: "2",
+  },
+
+  {
+    propertyName: "Demo",
+    propertyPrice: "9000",
+    address: "demo address",
+    country: "India",
+    city: "Bbsr",
+    dop: "3 months",
+    furnishingStatus: "furnished",
+    area: "1200sqft",
+    rating: "4",
+    priceStandard: "month",
+    image:
+      "https://hips.hearstapps.com/hmg-prod/images/bristow-mews-coach-house-exterior-1676468203.jpg",
+    badge: "for sale",
+    bedrooms: "2",
+    bathroom: "2",
+    parking: "2",
+  },
+
+  {
+    propertyName: "Demo",
+    propertyPrice: "9000",
+    address: "demo address",
+    country: "India",
+    city: "Bbsr",
+    dop: "3 months",
+    furnishingStatus: "furnished",
+    area: "1200sqft",
+    rating: "4",
+    priceStandard: "month",
+    image:
+      "https://hips.hearstapps.com/hmg-prod/images/bristow-mews-coach-house-exterior-1676468203.jpg",
+    badge: "for sale",
+    bedrooms: "2",
+    bathroom: "2",
+    parking: "2",
+  },
+
+  {
+    propertyName: "Demo",
+    propertyPrice: "9000",
+    address: "demo address",
+    country: "India",
+    city: "Bbsr",
+    dop: "3 months",
+    furnishingStatus: "furnished",
+    area: "1200sqft",
+    rating: "4",
+    priceStandard: "month",
+    image:
+      "https://hips.hearstapps.com/hmg-prod/images/bristow-mews-coach-house-exterior-1676468203.jpg",
+    badge: "for sale",
+    bedrooms: "2",
+    bathroom: "2",
+    parking: "2",
+  },
+];
